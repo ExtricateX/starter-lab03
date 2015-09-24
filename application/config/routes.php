@@ -37,6 +37,7 @@
 | in the URL cannot be matched to a valid route.
 |
 */
+$route['show/(:num)'] = "first/gimme/3";
 $route['lock/(:any)/(:any)'] = "welcome/shucks";
 $route['sleep'] = "first/zzz";
 $route['default_controller'] = "welcome";
