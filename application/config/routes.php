@@ -37,6 +37,7 @@
 | in the URL cannot be matched to a valid route.
 |
 */
+$route['comp(:num)/(:any)'] = "bingo/wisdom";
 $route['([a-z]+)/bingo'] = "bingo";
 $route['dunno'] = "guess";
 $route['show/(:num)'] = "first/gimme/3";
